@@ -1,0 +1,116 @@
+.portfolio__project-container__feature {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+}
+
+.portfolio__project-container-image {
+  width: 100%;
+  height: 100%;
+}
+
+.h3-color {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* .put_rows {
+  display: flex;
+} */
+
+.portfolio__project-container-image img {
+  width: 98%;
+  height: 100%;
+}
+
+.portfolio__project-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+
+.portfolio__project-container-content p {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.portfolio__project-container-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.portfolio__project-container-button {
+  text-align: center;
+  justify-content: space-between;
+  margin: 1rem 9rem;
+  align-items: center;
+}
+
+.portfolio__project-container-button a {
+  color: #fff;
+  font-size: 18px;
+  background: var(--gradient-button);
+  padding: 7px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolio__project-container-content p {
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: rgba(255, 255, 255, 0.651);
+  }
+
+  .portfolio__project-container-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .portfolio__project-container-button {
+    margin: 0;
+    padding-bottom: 6px;
+  }
+
+  .portfolio__project-container-button a {
+    margin: 0 3rem;
+  }
+
+  .portfolio__project-container-image {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio__project-container-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .portfolio__project-container-button {
+    margin: 0;
+    padding-bottom: 6px;
+  }
+
+  .portfolio__project-container-button a {
+    margin: 0 3rem;
+  }
+
+  .portfolio__project-container-image {
+    margin-top: 40px;
+  }
+}
