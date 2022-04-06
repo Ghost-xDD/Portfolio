@@ -14,16 +14,15 @@ const Projects = () => {
       <div>
         <div className="portfolio__blog-container">
           <div className="portfolio__blog-container-group1">
-            <AnimationOnScroll animateIn="animate__bounceIn" animateOnce="true">
-              <Project
-                image={pro1}
-                title="Pandora Landing Page"
-                text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
-                link="https://pandora-blockchain.netlify.app/"
-                target={'_blank'}
-                rel={'noopener noreferrer'}
-              />
-            </AnimationOnScroll>
+            <Project
+              image={pro1}
+              title="Pandora Landing Page"
+              text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
+              link="https://pandora-blockchain.netlify.app/"
+              target={'_blank'}
+              rel={'noopener noreferrer'}
+            />
+
             <Project
               image={pro2}
               title="Crypto Tracker"
