@@ -17,11 +17,17 @@ const Projects = () => {
               image={pro1}
               title="Pandora Landing Page"
               text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
+              link="https://pandora-blockchain.netlify.app/"
+              target={'_blank'}
+              rel={'noopener noreferrer'}
             />
             <Project
               image={pro2}
               title="Crypto Tracker"
               text="A basic crypto live tracker built using React hooks and the coinGecko API."
+              link="https://basic-crypto-tracker.netlify.app/"
+              target={'_blank'}
+              rel={'noopener noreferrer'}
             />
           </div>
 
@@ -31,6 +37,9 @@ const Projects = () => {
                 image={pro3}
                 title="Bank Landing Page"
                 text="Landing page for a digital bank built with HTML, Css and Vanilla"
+                link="https://pandora-blockchain.netlify.app/"
+                target={'_blank'}
+                rel={'noopener noreferrer'}
               />
             </div>
 
@@ -39,6 +48,9 @@ const Projects = () => {
                 image={pro4}
                 title="Pig Game Project"
                 text="An application modelled after the popular Pig game"
+                link="https://pig-game-es5.netlify.app/"
+                target={'_blank'}
+                rel={'noopener noreferrer'}
               />
             </div>
           </div>

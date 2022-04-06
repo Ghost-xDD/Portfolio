@@ -38,13 +38,25 @@ const Navbar = () => {
         </div>
       </div>
       <div className="portfolio__navbar-sign">
-        <a href="https://github.com/Ghost-xDD">
+        <a
+          href="https://github.com/Ghost-xDD"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <RiGithubFill />
         </a>
-        <a href="https://twitter.com/Ghost_xD2">
+        <a
+          href="https://twitter.com/Ghost_xD2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <RiTwitterFill />
         </a>
-        <a href="https://www.linkedin.com/in/ademola-adebowale-3a2824147/">
+        <a
+          href="https://www.linkedin.com/in/ademola-adebowale-3a2824147/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <RiLinkedinBoxFill />
         </a>
       </div>

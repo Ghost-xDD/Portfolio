@@ -1,7 +1,7 @@
 import React from 'react';
 import './project.css';
 
-const Project = ({ image, title, text }) => {
+const Project = ({ image, title, text, link, target, rel }) => {
   return (
     <div className="portfolio__project-container__project project__border">
       <div className="portfolio__project-container__project-title">
@@ -16,7 +16,9 @@ const Project = ({ image, title, text }) => {
 
         <div className="portfolio__project-container-button">
           <div>
-            <a href="#">Live Demo</a>
+            <a href={link} target={target} rel={rel}>
+              Live Demo
+            </a>
           </div>
         </div>
       </div>
