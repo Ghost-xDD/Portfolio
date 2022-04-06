@@ -46,7 +46,7 @@
   }
 
   .portfolio__technologies-stack {
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: row; */
