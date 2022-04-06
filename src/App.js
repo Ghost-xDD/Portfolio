@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {
   Header,
   Projects,
@@ -8,21 +9,24 @@ import {
   Footer,
 } from './containers';
 import Navbar from './components/navbar/Navbar';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
+    <Router>
+      <div className="App">
+        <div className="gradient__bg">
+          <Navbar />
+          <Header />
+        </div>
+        <About />
+        <Technologies />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
-      <About />
-      <Technologies />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

@@ -7,7 +7,7 @@ import {
   FaSass,
   FaBootstrap,
   FaGithub,
-  FaGitAlt,
+  FaGitAlt, FaTypeSc
 } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
 import { SiFirebase } from 'react-icons/si';
