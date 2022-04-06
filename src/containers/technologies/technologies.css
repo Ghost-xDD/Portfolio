@@ -34,13 +34,13 @@
   padding-bottom: 0.8rem;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
   .portfolio__technologies {
     margin-left: 10px;
   }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .portfolio__technologies {
     margin-left: 10px;
   }
@@ -48,12 +48,13 @@
   .portfolio__technologies-stack {
     font-size: 24px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
     flex: 1;
     justify-content: space-between;
     width: 80%;
     color: #fff;
-  
+
     padding-top: 2rem;
   }
 }
