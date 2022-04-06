@@ -125,4 +125,8 @@ a {
   .section__margin {
     margin: 2rem 2rem;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
