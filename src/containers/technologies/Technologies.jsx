@@ -42,6 +42,12 @@ const Technologies = () => {
           <Technology icon={<FaGithub />} text="Github" />
           <Technology icon={<FaGitAlt />} text="Git" />
         </div>
+        
+        <div className="portfolio-stack2">
+          <Technology icon={<SiFirebase />} text="Firebase" />
+          <Technology icon={<FaGithub />} text="Github" />
+          <Technology icon={<FaGitAlt />} text="Git" />
+        </div>
       </div>
     </div>
   );

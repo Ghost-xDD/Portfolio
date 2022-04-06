@@ -57,4 +57,9 @@
 
     padding-top: 2rem;
   }
+
+  .portfolio-stack1 {
+    align-items: center;
+    justify-content: center;
+  }
 }
