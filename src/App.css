@@ -7,7 +7,6 @@
 
 body {
   background: var(--color-bg);
-  overflow-x: hidden;
 }
 
 a {
@@ -126,7 +125,4 @@ a {
     margin: 2rem 2rem;
   }
 
-  body {
-    overflow-x: hidden;
-  }
 }

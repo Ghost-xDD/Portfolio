@@ -12,8 +12,8 @@
   justify-content: flex-start;
   align-items: center;
 }
- 
-.portfolio__navbar-links_container p{
+
+.portfolio__navbar-links_container p {
   padding-right: 4rem;
   line-height: 32px;
 }
@@ -28,7 +28,6 @@
   font-size: 25px;
   cursor: pointer;
   margin-right: 30px;
-
   display: flex;
   flex: 1;
 }
@@ -144,6 +143,7 @@
 @media screen and (max-width: 550px) {
   .portfolio__navbar {
     padding: 2rem;
+    /* overflow: hidden; */
   }
 
   .portfolio__navbar-sign {
@@ -157,4 +157,13 @@
   .portfolio__navbar-menu_container-links-sign {
     display: block;
   }
+
+  .portfolio__navbar-links_logo {
+    margin-right: 0;
+  }
+
+  /* .portfolio__navbar-links_logo h2 {
+    margin: 0;
+    padding: 0;
+  } */
 }
