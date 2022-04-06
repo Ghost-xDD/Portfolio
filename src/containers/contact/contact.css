@@ -1,3 +1,11 @@
+button {
+  background: none;
+  padding: 0;
+  /* outline: none; */
+  border: none;
+  color: white;
+}
+
 .portfolio__contact {
   margin-left: 80px;
 }
@@ -25,6 +33,20 @@
   color: #fff;
 }
 
+.portfolio__contact-content button {
+  background: #fff;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.portfolio__contact-content a {
+  color: #000;
+  padding: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
 .formword {
   width: 100%;
 }
@@ -46,4 +68,26 @@
   /* padding: 0 20px;
   margin: 0 10px; */
   overflow: hidden;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolio__contact {
+    margin: 0;
+    /* padding: 0; */
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio__about {
+    margin-left: 0;
+  }
+
+  .portfolio__contact-content button {
+    background: #fff;
+  }
+
+  .portfolio__contact-content a {
+    color: #000;
+    padding: 4px;
+  }
 }

@@ -38,7 +38,7 @@ const Contact = (props) => {
           <div className="formWord">
             <h3>Full Name:</h3>
             <input className="input100" type="text" name="fullName" required />
-            
+
             <h3>Phone Number:</h3>
             <input className="input100" type="text" name="phone" required />
 
@@ -48,9 +48,11 @@ const Contact = (props) => {
 
           <div className="formWord">
             <h3>Message:</h3>
-            <textarea name="message" required></textarea>
+            <textarea className="textHeight" name="message" required></textarea>
             <br />
-            <button>SUBMIT</button>
+            <button>
+              <a>Submit</a>
+            </button>
 
             <div className="row">{result ? <Result /> : null}</div>
           </div>
