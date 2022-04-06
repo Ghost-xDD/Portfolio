@@ -10,7 +10,7 @@ import {
   FaGitAlt,
 } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
-import { SiFirebase, SiTypescript, SiTailwindcss } from 'react-icons/si';
+import { SiFirebase, SiTypescript } from 'react-icons/si';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import './technologies.css';
 
@@ -22,6 +22,8 @@ const Technologies = () => {
         <h1 className="gradient__text">Tech Stack</h1>
         <p>Technologies I'm currently working with</p>
       </div>
+
+      {/* 298 * 1425 */}
 
       <div className="portfolio__technologies-stack gradient__text">
         <div className="portfolio-stack1">
@@ -39,12 +41,6 @@ const Technologies = () => {
         <div className="portfolio-stack2">
           <Technology icon={<SiFirebase />} text="Firebase" />
           <Technology icon={<FaGithub />} text="Github" />
-          <Technology icon={<FaGitAlt />} text="Git" />
-        </div>
-
-        <div className="portfolio-stack2">
-          <Technology icon={<SiTypescript />} text="Typescript" />
-          <Technology icon={<SiTailwindcss />} text="TailwindCSS" />
           <Technology icon={<FaGitAlt />} text="Git" />
         </div>
       </div>
