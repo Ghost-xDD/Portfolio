@@ -8,10 +8,9 @@ import {
   FaBootstrap,
   FaGithub,
   FaGitAlt,
-  FaTypeSc,
 } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
-import { SiFirebase } from 'react-icons/si';
+import { SiFirebase, SiTypescript, SiTailwindcss } from 'react-icons/si';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import './technologies.css';
 
@@ -42,10 +41,10 @@ const Technologies = () => {
           <Technology icon={<FaGithub />} text="Github" />
           <Technology icon={<FaGitAlt />} text="Git" />
         </div>
-        
+
         <div className="portfolio-stack2">
-          <Technology icon={<SiFirebase />} text="Firebase" />
-          <Technology icon={<FaGithub />} text="Github" />
+          <Technology icon={<SiTypescript />} text="Typescript" />
+          <Technology icon={<SiTailwindcss />} text="TailwindCSS" />
           <Technology icon={<FaGitAlt />} text="Git" />
         </div>
       </div>
