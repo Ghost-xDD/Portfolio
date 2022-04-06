@@ -1,6 +1,7 @@
 import React from 'react';
 import neon from '../../assets/neon.gif';
 import { FaArrowRight } from 'react-icons/fa';
+import Typewriter from 'typewriter-effect';
 import { MdWavingHand } from 'react-icons/md';
 import './header.css';
 
@@ -8,11 +9,20 @@ const Header = () => {
   return (
     <div className="pandora__header section__padding">
       <div className="pandora__header-content">
-        <h1 className="gradient__text">
-          Hi There <MdWavingHand />
-          <br />
-          Welcome to my Personal Portfolio
-        </h1>
+        <div className="gradient__text">
+          <Typewriter
+            className="gradient__text"
+            onInit={(typewriter) => {
+              typewriter
+                .pasteString(
+                  `Hello Dear Traveller, 
+                  <br />
+                  Welcome to my small part <br /> of the Internet.`
+                )
+                .start();
+            }}
+          />
+        </div>
         <p>
           I am Ademola Adebowale, an enthusiastic Front-End Developer who
           creates modern websites, landing pages and single-page web

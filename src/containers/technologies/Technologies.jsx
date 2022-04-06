@@ -7,14 +7,16 @@ import {
   FaSass,
   FaBootstrap,
   FaGithub,
-  FaGitAlt, FaTypeSc
+  FaGitAlt,
+  FaTypeSc,
 } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
 import { SiFirebase } from 'react-icons/si';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import './technologies.css';
 
 const Technologies = () => {
-  return (  
+  return (
     <div className="portfolio__technologies section__padding" id="tech">
       <div className="portfolio__technologies-content-header">
         <div />
@@ -22,25 +24,27 @@ const Technologies = () => {
         <p>Technologies I'm currently working with</p>
       </div>
 
-      <div className="portfolio__technologies-stack gradient__text">
-        <div className="portfolio-stack1">
-          <Technology icon={<FaHtml5 />} text="Html5" />
-          <Technology icon={<FaCss3Alt />} text="CSS3" />
-          <Technology icon={<FaSass />} text="Sass" />
-        </div>
+      <AnimationOnScroll animateIn="animate__flipInY" animateOnce="true">
+        <div className="portfolio__technologies-stack gradient__text">
+          <div className="portfolio-stack1">
+            <Technology icon={<FaHtml5 />} text="Html5" />
+            <Technology icon={<FaCss3Alt />} text="CSS3" />
+            <Technology icon={<FaSass />} text="Sass" />
+          </div>
 
-        <div className="portfolio-stack2">
-          <Technology icon={<DiJavascript1 />} text="Javascript" />
-          <Technology icon={<FaReact />} text="React" />
-          <Technology icon={<FaBootstrap />} text="Bootstrap5" />
-        </div>
+          <div className="portfolio-stack2">
+            <Technology icon={<DiJavascript1 />} text="Javascript" />
+            <Technology icon={<FaReact />} text="React" />
+            <Technology icon={<FaBootstrap />} text="Bootstrap5" />
+          </div>
 
-        <div className="portfolio-stack2">
-          <Technology icon={<SiFirebase />} text="Firebase" />
-          <Technology icon={<FaGithub />} text="Github" />
-          <Technology icon={<FaGitAlt />} text="Git" />
+          <div className="portfolio-stack2">
+            <Technology icon={<SiFirebase />} text="Firebase" />
+            <Technology icon={<FaGithub />} text="Github" />
+            <Technology icon={<FaGitAlt />} text="Git" />
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
     </div>
   );
 };
