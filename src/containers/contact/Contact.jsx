@@ -51,7 +51,8 @@ const Contact = (props) => {
             <textarea className="textHeight" name="message" required></textarea>
             <br />
             <button>
-              <a>Submit</a>
+              <a>Submit</a> 
+              {/* 298 * 1425 */}
             </button>
 
             <div className="row">{result ? <Result /> : null}</div>

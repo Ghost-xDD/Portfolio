@@ -6,6 +6,13 @@ button {
   color: white;
 }
 
+.textHeight {
+  height: 70px;
+  /* padding: 40px 0; */
+  color: #000;
+  background: white;
+}
+
 .portfolio__contact {
   margin-left: 80px;
 }
@@ -52,6 +59,10 @@ button {
 }
 
 .formword input {
+  margin-bottom: 30px;
+}
+
+.formword textarea {
   margin-bottom: 30px;
 }
 

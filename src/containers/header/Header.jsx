@@ -15,7 +15,7 @@ const Header = () => {
             onInit={(typewriter) => {
               typewriter
                 .pasteString(
-                  `Hello Dear Traveller, 
+                  `Hello There, 
                   <br />
                   Welcome to my small part <br /> of the Internet.`
                 )
