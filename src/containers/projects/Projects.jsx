@@ -14,46 +14,60 @@ const Projects = () => {
       <div>
         <div className="portfolio__blog-container">
           <div className="portfolio__blog-container-group1">
-            <Project
-              image={pro1}
-              title="Pandora Landing Page"
-              text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
-              link="https://pandora-blockchain.netlify.app/"
-              target={'_blank'}
-              rel={'noopener noreferrer'}
-            />
-
-            <Project
-              image={pro2}
-              title="Crypto Tracker"
-              text="A basic crypto live tracker built using React hooks and the coinGecko API."
-              link="https://mt-tracker2.vercel.app/"
-              target={'_blank'}
-              rel={'noopener noreferrer'}
-            />
-          </div>
-
-          <div className="portfolio__blog-container-group2">
-            <div>
+            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
               <Project
-                image={pro3}
-                title="Bank Landing Page"
-                text="Landing page for a digital bank built with HTML, Css and Vanilla"
+                image={pro1}
+                title="Pandora Landing Page"
+                text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
                 link="https://pandora-blockchain.netlify.app/"
                 target={'_blank'}
                 rel={'noopener noreferrer'}
               />
-            </div>
+            </AnimationOnScroll>
 
-            <div>
+            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
               <Project
-                image={pro4}
-                title="Pig Game Project"
-                text="An application modelled after the popular Pig game"
-                link="https://pig-game-es5.netlify.app/"
+                image={pro2}
+                title="Crypto Tracker"
+                text="A Cryptocurrency live tracker built using React and the coinGecko API."
+                link="https://mt-tracker2.vercel.app/"
                 target={'_blank'}
                 rel={'noopener noreferrer'}
               />
+            </AnimationOnScroll>
+          </div>
+
+          <div className="portfolio__blog-container-group2">
+            <div>
+              <AnimationOnScroll
+                animateIn="animate__fadeInUp"
+                animateOnce="true"
+              >
+                <Project
+                  image={pro3}
+                  title="Bank Landing Page"
+                  text="Landing page for a digital bank built with HTML, Css and Vanilla"
+                  link="https://pandora-blockchain.netlify.app/"
+                  target={'_blank'}
+                  rel={'noopener noreferrer'}
+                />
+              </AnimationOnScroll>
+            </div>
+
+            <div>
+              <AnimationOnScroll
+                animateIn="animate__fadeInUp"
+                animateOnce="true"
+              >
+                <Project
+                  image={pro4}
+                  title="Pig Game Project"
+                  text="An application modelled after the popular Pig game"
+                  link="https://pig-game-es5.netlify.app/"
+                  target={'_blank'}
+                  rel={'noopener noreferrer'}
+                />
+              </AnimationOnScroll>
             </div>
           </div>
         </div>

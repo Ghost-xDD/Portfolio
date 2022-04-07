@@ -78,8 +78,19 @@ const Navbar = () => {
           <div className="portfolio__navbar-menu_container scale-up-center">
             <div className="portfolio__navbar-menu_container-links">
               <Menu />
+              <div className="portfolio__navbar-menu_container-social_links">
+                <a href="https://www.linkedin.com/in/ademola-adebowale-3a2824147/">
+                  <RiLinkedinBoxFill />
+                </a>
+                <a href="https://twitter.com/Ghost_xD2">
+                  <RiTwitterFill />
+                </a>
+                <a href="https://github.com/Ghost-xDD">
+                  <RiGithubFill />
+                </a>
+              </div>
             </div>
-            <div className="portfolio__navbar-sign">
+            {/* <div className="portfolio__navbar-sign">
               <a href="#">
                 <RiLinkedinBoxFill />
               </a>
@@ -89,7 +100,7 @@ const Navbar = () => {
               <a href="https://github.com/Ghost-xDD">
                 <RiGithubFill />
               </a>
-            </div>
+            </div> */}
           </div>
         )}
       </div>

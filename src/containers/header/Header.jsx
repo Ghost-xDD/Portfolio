@@ -15,7 +15,7 @@ const Header = () => {
             onInit={(typewriter) => {
               typewriter
                 .pasteString(
-                  `Hello There, 
+                  `Hello there, 
                   <br />
                   Welcome to my small part <br /> of the Internet.`
                 )
@@ -31,7 +31,8 @@ const Header = () => {
 
         <div className="pandora__header-cta">
           <button className="pandora__header-cta-btn" type="button">
-            Get to know me
+            {' '}
+            <a href="#about">Get to know me</a>
           </button>
         </div>
       </div>

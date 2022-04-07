@@ -37,21 +37,25 @@ const Contact = (props) => {
         <form action="" onSubmit={sendEmail}>
           <div className="formWord">
             <h3>Full Name:</h3>
+            <br />
             <input className="input100" type="text" name="fullName" required />
 
             <h3>Phone Number:</h3>
+            <br />
             <input className="input100" type="text" name="phone" required />
 
             <h3>Enter Email:</h3>
+            <br />
             <input className="input100" type="text" name="email" required />
           </div>
 
           <div className="formWord">
             <h3>Message:</h3>
+            <br />
             <textarea className="textHeight" name="message" required></textarea>
             <br />
             <button>
-              <a>Submit</a> 
+              <a>Submit</a>
               {/* 298 * 1425 */}
             </button>
 

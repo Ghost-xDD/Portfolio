@@ -24,26 +24,27 @@ const Technologies = () => {
       </div>
 
       {/* 298 * 1425 */}
+      <AnimationOnScroll animateIn="animate__swing" animateOnce="true">
+        <div className="portfolio__technologies-stack gradient__text">
+          <div className="portfolio-stack1">
+            <Technology icon={<FaHtml5 />} text="Html5" />
+            <Technology icon={<FaCss3Alt />} text="CSS3" />
+            <Technology icon={<FaSass />} text="Sass" />
+          </div>
 
-      <div className="portfolio__technologies-stack gradient__text">
-        <div className="portfolio-stack1">
-          <Technology icon={<FaHtml5 />} text="Html5" />
-          <Technology icon={<FaCss3Alt />} text="CSS3" />
-          <Technology icon={<FaSass />} text="Sass" />
-        </div>
+          <div className="portfolio-stack2">
+            <Technology icon={<DiJavascript1 />} text="Javascript" />
+            <Technology icon={<FaReact />} text="React" />
+            <Technology icon={<FaBootstrap />} text="Bootstrap5" />
+          </div>
 
-        <div className="portfolio-stack2">
-          <Technology icon={<DiJavascript1 />} text="Javascript" />
-          <Technology icon={<FaReact />} text="React" />
-          <Technology icon={<FaBootstrap />} text="Bootstrap5" />
+          <div className="portfolio-stack2">
+            <Technology icon={<SiFirebase />} text="Firebase" />
+            <Technology icon={<FaGithub />} text="Github" />
+            <Technology icon={<FaGitAlt />} text="Git" />
+          </div>
         </div>
-
-        <div className="portfolio-stack2">
-          <Technology icon={<SiFirebase />} text="Firebase" />
-          <Technology icon={<FaGithub />} text="Github" />
-          <Technology icon={<FaGitAlt />} text="Git" />
-        </div>
-      </div>
+      </AnimationOnScroll>
     </div>
   );
 };

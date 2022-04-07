@@ -10,7 +10,9 @@ const Footer = () => {
         <p>GhostxD</p>
       </div>
 
-      <div className="portfolio__footer-links_container">
+      <div className="portfolio__footer-links_container"></div>
+
+      {/* <div className="portfolio__footer-links_container">
         <p>
           <a href="#projects">Projects</a>
         </p>
@@ -21,7 +23,7 @@ const Footer = () => {
         <p>
           <a href="#about">About</a>
         </p>
-      </div>
+      </div> */}
 
       <div className="portfolio__footer-sign">
         <a href="https://github.com/Ghost-xDD">

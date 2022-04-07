@@ -38,7 +38,7 @@
 }
 
 .portfolio__navbar-links_container a:hover {
-  color: #fff;
+  color: grey;
 }
 
 .portfolio__navbar-sign {
@@ -54,6 +54,10 @@
   align-items: center;
   height: 2rem;
   margin-right: 3rem;
+}
+
+.portfolio__navbar-sign a:hover {
+  color: grey;
 }
 
 .portfolio__navbar-links_container p,
@@ -105,7 +109,7 @@
   flex-direction: column;
 
   text-align: end;
-  background: var(--color-footer);
+  background: var(--color-bg);
   padding: 2rem;
   position: absolute;
   top: 40px;
@@ -152,6 +156,19 @@
 
   .portfolio__navbar-menu_container {
     top: 20px;
+  }
+
+  .portfolio__navbar-menu_container-social_links a:hover {
+    color: grey;
+  }
+
+  .portfolio__navbar-menu_container-social_links a {
+    font-size: 30px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: #fff;
+    margin-bottom: 10px;
   }
 
   .portfolio__navbar-menu_container-links-sign {

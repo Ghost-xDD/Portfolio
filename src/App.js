@@ -24,7 +24,7 @@ function App() {
         <Technologies />
         <Projects />
         <Contact />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
