@@ -62,4 +62,11 @@
   .portfolio__footer-heading p {
     text-align: center;
   }
+
+  .portfolio__footer-sign {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
 }
