@@ -27,7 +27,7 @@ const Projects = () => {
               image={pro2}
               title="Crypto Tracker"
               text="A basic crypto live tracker built using React hooks and the coinGecko API."
-              link="https://basic-crypto-tracker.netlify.app/"
+              link="https://mt-tracker2.vercel.app/"
               target={'_blank'}
               rel={'noopener noreferrer'}
             />
