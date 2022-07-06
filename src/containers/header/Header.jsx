@@ -24,9 +24,7 @@ const Header = () => {
           />
         </div>
         <p>
-          I am Ademola Adebowale, an enthusiastic Front-End Developer who
-          creates modern websites, landing pages and single-page web
-          appications.
+          I am Ademola Adebowale, an enthusiastic Front-End Developer currently exploring the amazing world of Blockchains.
         </p>
 
         <div className="pandora__header-cta">
