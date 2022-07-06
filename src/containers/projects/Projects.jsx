@@ -16,10 +16,10 @@ const Projects = () => {
           <div className="portfolio__blog-container-group1">
             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
               <Project
-                image={pro1}
-                title="Pandora Landing Page"
-                text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
-                link="https://pandora-blockchain.netlify.app/"
+                image={pro3}
+                title="Gizmo Defi Dashboard"
+                text="A Multichain Defi dashboard powered in the backend by Moralis"
+                link="https://gizmo-defi.vercel.app/"
                 target={'_blank'}
                 rel={'noopener noreferrer'}
               />
@@ -28,7 +28,7 @@ const Projects = () => {
             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
               <Project
                 image={pro2}
-                title="Crypto Tracker"
+                title="MT Crypto Tracker"
                 text="A Cryptocurrency live tracker built using React and the coinGecko API."
                 link="https://mt-tracker2.vercel.app/"
                 target={'_blank'}
@@ -44,9 +44,9 @@ const Projects = () => {
                 animateOnce="true"
               >
                 <Project
-                  image={pro3}
-                  title="Bank Landing Page"
-                  text="Landing page for a digital bank built with HTML, Css and Vanilla"
+                  image={pro1}
+                  title="Pandora Landing Page"
+                  text="A mobile responsive landing page for a blockchain platform using React Js and Custom CSS."
                   link="https://pandora-blockchain.netlify.app/"
                   target={'_blank'}
                   rel={'noopener noreferrer'}
@@ -61,9 +61,9 @@ const Projects = () => {
               >
                 <Project
                   image={pro4}
-                  title="Pig Game Project"
-                  text="An application modelled after the popular Pig game"
-                  link="https://pig-game-es5.netlify.app/"
+                  title="Elrond Wallet Clone"
+                  text="A Desktop Clone of the native wallet for the Elrond blockchain"
+                  link="https://elrond-wallet.vercel.app/"
                   target={'_blank'}
                   rel={'noopener noreferrer'}
                 />
